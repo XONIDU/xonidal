@@ -40,7 +40,6 @@ XONIDAL/
 ├── templates/
 │   └── index.html         # Interfaz web (diseño XONI-FESC)
 └── README.md              # Este archivo
-```
 
 ## 🔧 Requisitos
 
