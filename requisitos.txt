@@ -1,0 +1,64 @@
+# XONIDAL - Universal Serial Bridge
+# Desarrollado por: Darian Alberto Camacho Salas y Oscar Rodolfo Barragán Pérez
+# Instagram: @xonidu
+
+# DEPENDENCIAS PRINCIPALES
+# Flask - Servidor web
+# Requests - Peticiones HTTP al ESP32
+
+# ------------------------------------------------------------
+# ARCH LINUX
+# ------------------------------------------------------------
+sudo pacman -S python-pip python-flask
+pip install requests --break-system-packages
+
+# ------------------------------------------------------------
+# UBUNTU Y DERIVADOS
+# ------------------------------------------------------------
+sudo apt update
+sudo apt install python3 python3-pip -y
+sudo apt install python3-flask -y
+pip3 install requests --break-system-packages
+
+# ------------------------------------------------------------
+# WINDOWS
+# ------------------------------------------------------------
+pip install flask requests
+
+# ------------------------------------------------------------
+# MAC OS
+# ------------------------------------------------------------
+brew install python3
+pip3 install flask requests
+
+# ------------------------------------------------------------
+# CLOUDFLARE TUNNEL (OPCIONAL - PARA ACCESO GLOBAL)
+# ------------------------------------------------------------
+# Arch Linux
+# yay -S cloudflared
+
+# Ubuntu/Debian
+# curl -L https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64 -o cloudflared
+# chmod +x cloudflared
+# sudo mv cloudflared /usr/local/bin/
+
+# Windows
+# Descargar desde: https://github.com/cloudflare/cloudflared/releases
+
+# Mac OS
+# brew install cloudflared
+
+# ------------------------------------------------------------
+# VERIFICAR INSTALACION
+# ------------------------------------------------------------
+# python --version
+# pip list | findstr flask    (Windows)
+# pip list | grep flask        (Linux/Mac)
+
+# ------------------------------------------------------------
+# EJECUCION DEL SERVIDOR
+# ------------------------------------------------------------
+python start.py
+
+# En otra terminal (opcional para acceso global):
+# cloudflared tunnel --url http://localhost:5050
