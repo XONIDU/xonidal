@@ -1,6 +1,3 @@
-Aquí tienes el README para XONIDAL siguiendo exactamente el formato que pediste:
-
-```markdown
 # 🎓 XONIDAL
 
 **Advertencia:** Este código tiene únicamente fines educativos. Está diseñado para enseñar los principios de comunicación serial, IoT y control remoto de dispositivos. No debe utilizarse para aplicaciones críticas, sistemas de seguridad o control de dispositivos que puedan causar daños sin las medidas de seguridad apropiadas.
@@ -36,7 +33,6 @@ Este proyecto enseña:
 
 ## 📦 Estructura del Proyecto
 
-```
 XONIDAL/
 ├── esp32_xonidal.ino      # Código para ESP32 (puente WiFi → Serial)
 ├── arduino_xonidal.ino    # Código para Arduino (recepción serial)
