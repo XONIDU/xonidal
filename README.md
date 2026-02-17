@@ -33,6 +33,7 @@ Este proyecto enseña:
 
 ## 📦 Estructura del Proyecto
 
+```
 XONIDAL/
 ├── esp32_xonidal.ino      # Código para ESP32 (puente WiFi → Serial)
 ├── arduino_xonidal.ino    # Código para Arduino (recepción serial)
@@ -40,6 +41,7 @@ XONIDAL/
 ├── templates/
 │   └── index.html         # Interfaz web (diseño XONI-FESC)
 └── README.md              # Este archivo
+```
 
 ## 🔧 Requisitos
 
@@ -153,10 +155,6 @@ void ejecutarComando(String comando) {
 ### Cambiar credenciales:
 - En `start.py`: modifica `USERNAME` y `PWD`
 - En `esp32_xonidal.ino`: modifica `admin:1234` en `checkAuth()`
-
-## 📸 Capturas
-
-*(Aquí puedes agregar capturas de pantalla de la interfaz web)*
 
 ## ❓ ¿Dudas o sugerencias educativas?
 
