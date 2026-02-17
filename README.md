@@ -187,7 +187,10 @@ Este software se proporciona "tal cual", sin garantía de ningún tipo. El autor
 
 ## 🏆 Créditos
 
-**Desarrollado por:** Darian Alberto Camacho Salas y Oscar Rodolfo Barragán Pérez
+**Desarrollado por:** Darian Alberto Camacho Salas y
+Oscar Rodolfo Barragán Pérez
+
 **Asesor:** Dr. Raúl Dalí Cruz Morales
+
 **Proyecto:** XONIDAL - Universal Serial Bridge  
 **Año:** 2025-2026
